@@ -21,3 +21,10 @@ A cloud-native microservices project for an online pharmacy, built using:
 cd medicine-service
 npm install
 node index.js
+
+## 🐳 Run with Docker
+
+```bash
+cd medicine-service
+docker build -t medicine-service .
+docker run -p 3000:3000 medicine-service
